@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-13T23:09:54Z" name="DockerGoogleSelenium" finished-at="2020-12-13T23:10:05Z" duration-ms="10970">
+    <groups>
+    </groups>
+    <test started-at="2020-12-13T23:09:54Z" name="GoogleHomePageTest1" finished-at="2020-12-13T23:09:58Z" duration-ms="3958">
+      <class name="TestCase.GoogleHomeTest">
+        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:TestCase.GoogleHomeTest@54e1c68b]" started-at="2020-12-13T18:09:54Z" name="setUpDriver" finished-at="2020-12-13T18:09:56Z" duration-ms="1537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method signature="searchTest()[pri:0, instance:TestCase.GoogleHomeTest@54e1c68b]" started-at="2020-12-13T18:09:56Z" name="searchTest" finished-at="2020-12-13T18:09:58Z" duration-ms="2311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:TestCase.GoogleHomeTest@54e1c68b]" started-at="2020-12-13T18:09:58Z" name="quitDriver" finished-at="2020-12-13T18:09:58Z" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- TestCase.GoogleHomeTest -->
+    </test> <!-- GoogleHomePageTest1 -->
+    <test started-at="2020-12-13T23:09:54Z" name="GoogleSearchTest1" finished-at="2020-12-13T23:10:00Z" duration-ms="5900">
+      <class name="TestCase.GoogleResultTest">
+        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:TestCase.GoogleResultTest@55a147cc]" started-at="2020-12-13T18:09:54Z" name="setUpDriver" finished-at="2020-12-13T18:09:56Z" duration-ms="1833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method signature="GoogleResult(java.lang.String, int)[pri:0, instance:TestCase.GoogleResultTest@55a147cc]" started-at="2020-12-13T18:09:56Z" name="GoogleResult" finished-at="2020-12-13T18:10:00Z" duration-ms="3980" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Docker]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoogleResult -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:TestCase.GoogleResultTest@55a147cc]" started-at="2020-12-13T18:10:00Z" name="quitDriver" finished-at="2020-12-13T18:10:00Z" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- TestCase.GoogleResultTest -->
+    </test> <!-- GoogleSearchTest1 -->
+    <test started-at="2020-12-13T23:09:54Z" name="GoogleSearchTest3" finished-at="2020-12-13T23:10:01Z" duration-ms="6613">
+      <class name="TestCase.GoogleResultTest">
+        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:TestCase.GoogleResultTest@298a5e20]" started-at="2020-12-13T18:09:54Z" name="setUpDriver" finished-at="2020-12-13T18:09:56Z" duration-ms="1171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method signature="GoogleResult(java.lang.String, int)[pri:0, instance:TestCase.GoogleResultTest@298a5e20]" started-at="2020-12-13T18:09:56Z" name="GoogleResult" finished-at="2020-12-13T18:10:01Z" duration-ms="5330" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoogleResult -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:TestCase.GoogleResultTest@298a5e20]" started-at="2020-12-13T18:10:01Z" name="quitDriver" finished-at="2020-12-13T18:10:01Z" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- TestCase.GoogleResultTest -->
+    </test> <!-- GoogleSearchTest3 -->
+    <test started-at="2020-12-13T23:09:54Z" name="GoogleSearchTest2" finished-at="2020-12-13T23:10:01Z" duration-ms="6884">
+      <class name="TestCase.GoogleResultTest">
+        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:TestCase.GoogleResultTest@2892d68]" started-at="2020-12-13T18:09:54Z" name="setUpDriver" finished-at="2020-12-13T18:09:56Z" duration-ms="1754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method signature="GoogleResult(java.lang.String, int)[pri:0, instance:TestCase.GoogleResultTest@2892d68]" started-at="2020-12-13T18:09:56Z" name="GoogleResult" finished-at="2020-12-13T18:10:01Z" duration-ms="5041" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoogleResult -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:TestCase.GoogleResultTest@2892d68]" started-at="2020-12-13T18:10:01Z" name="quitDriver" finished-at="2020-12-13T18:10:01Z" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- TestCase.GoogleResultTest -->
+    </test> <!-- GoogleSearchTest2 -->
+    <test started-at="2020-12-13T23:09:54Z" name="GoogleSearchTest4" finished-at="2020-12-13T23:10:03Z" duration-ms="8508">
+      <class name="TestCase.GoogleResultTest">
+        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:TestCase.GoogleResultTest@644baf4a]" started-at="2020-12-13T18:09:54Z" name="setUpDriver" finished-at="2020-12-13T18:09:59Z" duration-ms="4814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method signature="GoogleResult(java.lang.String, int)[pri:0, instance:TestCase.GoogleResultTest@644baf4a]" started-at="2020-12-13T18:09:59Z" name="GoogleResult" finished-at="2020-12-13T18:10:03Z" duration-ms="3618" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoogleResult -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:TestCase.GoogleResultTest@644baf4a]" started-at="2020-12-13T18:10:03Z" name="quitDriver" finished-at="2020-12-13T18:10:03Z" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- TestCase.GoogleResultTest -->
+    </test> <!-- GoogleSearchTest4 -->
+    <test started-at="2020-12-13T23:09:58Z" name="GoogleSearchTest5" finished-at="2020-12-13T23:10:05Z" duration-ms="6941">
+      <class name="TestCase.GoogleResultTest">
+        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:TestCase.GoogleResultTest@6892b3b6]" started-at="2020-12-13T18:09:58Z" name="setUpDriver" finished-at="2020-12-13T18:10:01Z" duration-ms="2956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method signature="GoogleResult(java.lang.String, int)[pri:0, instance:TestCase.GoogleResultTest@6892b3b6]" started-at="2020-12-13T18:10:01Z" name="GoogleResult" finished-at="2020-12-13T18:10:05Z" duration-ms="3918" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoogleResult -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:TestCase.GoogleResultTest@6892b3b6]" started-at="2020-12-13T18:10:05Z" name="quitDriver" finished-at="2020-12-13T18:10:05Z" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- TestCase.GoogleResultTest -->
+    </test> <!-- GoogleSearchTest5 -->
+  </suite> <!-- DockerGoogleSelenium -->
+</testng-results>

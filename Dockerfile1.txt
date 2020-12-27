@@ -1,0 +1,7 @@
+FROM openjdk:8u191-jre-alpine3.8
+WORKDIR C:/Users/Vivek Mishra/eclipse-workspace/GoogleAutomation
+COPY target/selenium-docker.jar selenium-docker.jar
+COPY target/selenium-docker-tests.jar selenium-docker-tests.jar
+COPY target/libs libs 
+COPY testng.xml testng.xml
+ENTRYPOINT java -cp selenium-docker.jar:selenium-docker-tests.jar:libs/* -DBROWSER=$BROWSER -DHUB_HOST=$HUB_HOST org.testng.TestNG $MODULE
