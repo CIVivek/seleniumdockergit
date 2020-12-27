@@ -1,6 +1,6 @@
 FROM openjdk:8u191-jre-alpine3.8
 RUN apk add curl jq
-WORKDIR C:/Users/Vivek Mishra/eclipse-workspace/GoogleAutomation
+WORKDIR /Users/Vivek Mishra/eclipse-workspace/GoogleAutomation
 COPY target/selenium-docker.jar selenium-docker.jar
 COPY target/selenium-docker-tests.jar selenium-docker-tests.jar
 COPY target/libs libs 
